@@ -1,0 +1,141 @@
+*{
+    font-family: "Josefin Sans", sans-serif;
+}
+.logoimg{
+    width: 45px;
+}
+.logoimg img{
+    width: 45px;
+}
+.maincontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.links{
+    display: flex;
+}
+.linkitems{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.linkitem:hover{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.btn button{
+    border: none;
+    background-color: #ae2012;
+    font-size: 10px;
+    color: #ffffff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.mainslide{
+    width: 96%;
+    height: 700px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px; 
+    border: 2px solid black;
+}
+.leftcontent{
+    width: 1000px;
+}
+.rightcontent{
+    width: 1000px;
+    border: 2px solid black;
+}
+#mainheading{
+    font-size: 45px;
+    font-weight: 4000;
+
+}
+#mainpara{
+    font-size: 17px;
+    color: rgb(103, 98, 98);
+}
+.btncontainer button{
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: ;
+}
+
+.main{
+    width: 300px;
+    border: 2px solid  black;
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 5px #030303;
+}
+img{
+    width: 300px;
+}
+.details{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+button{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+.cardcontainer{
+    display: flex;
+    width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.pricetags{
+    align-items: center;
+}
+i{
+    color: gold;
+}
+.upperlink{
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+.upperlink i{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: green;
+}
+.maincontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: red;
+}
+.footer{
+    display: flex;
+    padding: 30px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.footerlogo,.footerlogo img{
+    width: 70px;
+}
+.footer{
+    display: flex; 
+}
